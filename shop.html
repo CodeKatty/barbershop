@@ -31,10 +31,12 @@
           <li><a href="catalog.html">Магазин</a></li>
           <li class="breadcrumbs-current">Средства для ухода</li>
           </ul>
-          <form class="manufacturers">
+          <section class="filters">
+          <h2 class="visully-hidden">Фильтр товаров</h2>
+          <!--Здесь будет форма 
           <h2>Производители:</h2>
           <input type="checkbox" id="Baxter of California" checked>
-          <label for id="Baxter of California">Baxter of California</label><br>
+          <label for id="с">Baxter of California</label><br>
           <input type="checkbox" id="Mr Natty">
           <label for id="Mr Natty">Mr Natty</label><br>
           <input type="checkbox" id="Suavecito" checked>
@@ -45,7 +47,25 @@
           <label for id="Murray's">Murray's</label><br>
           <input type="checkbox" id="American Crew" checked>
           <label for id="American Crew">American Crew</label>
-          </form>
-      </main>
+          -->
+        </section>
+          <section clsss="catalog">
+            <h2 class="visually-hidden">Список средств для ухода</h2>
+            <ul class="catalog-list">
+              <li class="catalog-item">
+                <h3> <a href="catalog-item.html"><span="catalog-category">Набор для путешествий</span>
+                  <span class="catalog-item-title">«Baxter of California»</span></a>
+                </h3>
+                <p class="catalog-item-image">
+                  <a href="catalog-item.html"><img src="img/products-1.jpg" width="228" height="165" alt="Набор для путешествий «Baxter of California»">
+                </a>
+              </p>
+              <p class="catalog-item-price"><b>2900</b>
+              <a class="button" href="#">Купить</a>
+              </p>
+              </li>
+            </ul>
+      
+          </section>
  </body>
  </html>
